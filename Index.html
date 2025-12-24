@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seu Estúdio – Arquitetura & Visualização</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">SEU LOGO</div>
+    <nav class="nav">
+      <a href="#hero">Início</a>
+      <a href="#services">Serviços</a>
+      <a href="#projects">Projetos</a>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <!-- HERO / EXPERIÊNCIA 360 -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Visualização Imersiva</p>
+      <h1>Experiência em <span>360°</span></h1>
+      <p class="hero-subtitle">
+        Explore o projeto antes mesmo de ele existir. Navegue pelo espaço e perceba proporções,
+        materiais e atmosfera em uma experiência imersiva em 360 graus.
+      </p>
+      <button class="primary-btn">Ver projeto completo</button>
+    </div>
+
+    <div class="hero-media">
+      <!-- Troque pelo seu render / imagem 360 -->
+      <div class="hero-frame">
+        <img src="img/projeto-360.jpg" alt="Pré-visualização do ambiente em 360°" />
+        <div class="hero-frame-footer">
+          <span>Arraste para explorar o ambiente</span>
+          <div class="hero-frame-controls">
+            <button>-</button>
+            <button>+</button>
+            <button>⟳</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="services" class="section section-services">
+    <div class="section-header">
+      <h2>Arquitetura que transforma espaço em <span>identidade</span></h2>
+      <p>
+        Não criamos apenas projetos. Criamos experiências espaciais, alinhando forma,
+        função e emoção para valorizar cada ambiente.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <h3>Renderização Arquitetônica</h3>
+        <p>
+          Imagens realistas para apresentação de projetos residenciais e comerciais,
+          com foco em luz, materiais e atmosfera.
+        </p>
+      </article>
+
+      <article class="service-card">
+        <h3>Tours 360°</h3>
+        <p>
+          Experiências interativas que permitem ao cliente caminhar virtualmente pelo
+          espaço antes da execução.
+        </p>
+      </article>
+
+      <article class="service-card">
+        <h3>Animações e Vídeos</h3>
+        <p>
+          Percursos cinematográficos pelo projeto, ideais para campanhas, apresentações
+          e mídias sociais.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projects" class="section section-projects">
+    <div class="section-header">
+      <h2>Projetos</h2>
+      <p>Alguns dos trabalhos recentes em visualização arquitetônica.</p>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-image">
+          <img src="img/projeto-01.jpg" alt="Projeto 01" />
+        </div>
+        <div class="project-info">
+          <h3>Nome do Projeto 01</h3>
+          <p>Residencial – Interior & Fachada</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="img/projeto-02.jpg" alt="Projeto 02" />
+        </div>
+        <div class="project-info">
+          <h3>Nome do Projeto 02</h3>
+          <p>Casa contemporânea com piscina</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="img/projeto-03.jpg" alt="Projeto 03" />
+        </div>
+        <div class="project-info">
+          <h3>Nome do Projeto 03</h3>
+          <p>Condomínio de alto padrão</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="about" class="section section-about">
+    <div class="about-content">
+      <h2>Sobre o Estúdio</h2>
+      <p>
+        Estúdio especializado em visualização arquitetônica, tours 360° e animações
+        focadas em projetos residenciais e comerciais.
+      </p>
+      <p>
+        A cada imagem, o objetivo é traduzir a intenção do projeto em uma narrativa visual
+        clara, que facilite decisões e encantem clientes.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="section section-contact">
+    <div class="contact-content">
+      <h2>Contato</h2>
+      <p>
+        Fale sobre o seu projeto e receba uma proposta personalizada.
+      </p>
+      <form class="contact-form">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="mensagem" rows="4" placeholder="Conte um pouco sobre o projeto" required></textarea>
+        <button type="submit" class="primary-btn">Enviar mensagem</button>
+      </form>
+      <p class="contact-alt">
+        Ou envie diretamente para <a href="mailto:seuemail@seuestudio.com">seuemail@seuestudio.com</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Seu Estúdio. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
